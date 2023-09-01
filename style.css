@@ -1,0 +1,263 @@
+.logo{
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.demo a{
+    text-decoration: none;
+    border: 1px solid red;
+    color: red;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+}
+.bg{
+    background-image: url('images/doctor-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    position: relative;
+    font-size: 35px !important;
+    line-height: 1.3;
+    padding: 0 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.blocks{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-evenly;
+}
+.boxlink{
+    /* border: 1px solid gray; */
+    
+}
+.study{
+    width: 100%;
+    height: 10vh;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.city{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.input{
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+}
+.input:focus{
+    outline: none;
+}
+.city span{
+    color: #42BDBD;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.button a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: azure;
+    
+}
+.button{
+    background-color: #ECAF2F;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn1{
+    text-align: center;
+    margin: auto;
+}
+.body-box{
+    text-align: center;
+    
+}
+.body-box{
+    font-family: "Charter ITC", serif;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+}
+.line1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    font-size: 13px;
+}
+.box a:hover{
+    /* color: white; */
+}
+.box{
+    text-align: center;
+    border: 1px solid black;
+    height: 9vh;
+    display: flex;
+    margin: 5px;
+}
+.box:hover a{
+color: azure;
+}
+.box:hover{
+    background-color: hsl(180, 11%, 24%);
+
+}
+.box1{
+    text-align: center;
+    border: 1px solid black;
+    height: 9vh;
+    position: relative;
+    display: inline-block;
+    padding: 22px 45px 18px 45px;
+    width: 93%;
+    margin: auto;
+}
+.box1:hover a{
+    color: azure;
+}
+.box1:hover{
+    background-color: hsl(180, 11%, 24%);
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    font-size: 13px;
+}
+.bg1{
+    background-image: url('images/default-cta-bg.png');
+    background-color: #f4f8f8;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: bottom right;
+    text-align: center;
+}
+.doctor h1{
+    text-align: center;
+    font-family: "Charter ITC", serif;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 30px;
+}
+.arrow{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 22px 45px 18px 45px;
+    font-size: 17px;
+    font-size: 1.7rem;
+    line-height: 1;
+    /* letter-spacing: 0.075em; */
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #fff;
+    outline: 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #364343;
+    width: 50%;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .15);
+    width: auto;
+    margin-top: -14px;
+}
+.arrow a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: "Charter ITC", serif;
+    
+}
+.arrow a:hover{
+    text-decoration: underline;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.footer a{
+    font-size: 25px;
+    font-weight: 300;
+    align-content: center;
+    letter-spacing: 0.05em;
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.fa-brands{
+    font-size: 25px;
+    margin-left: 10px;
+    color: black;
+    
+}
+.footer{
+    text-align: center;
+}
+.footer-body ul{
+    list-style-type: none;
+}
+.footer-body li{
+    margin-bottom: 20px;
+}
+.footer-body a{
+    text-decoration: none;
+    color: #626f6f;
+    font-weight: 300;
+    font-size: 18px;
+    /* font-size: 1.5rem; */
+    letter-spacing: 0.05em;
+}
+.footer-body a:hover{
+    text-decoration: underline;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer1 span{
+    color: #626f6f;
+    padding: 20px ;
+}
+.footer-end a{
+    text-decoration: none;
+    color: #626f6f;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.footer-end a:hover{
+    text-decoration: underline;
+}
+.footer1{
+    height: 20vh;
+    border-top: 1px solid #626f6f;
+}

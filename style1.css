@@ -1,0 +1,91 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .logo{
+        width: 55%;
+    }
+    .study{
+        height: 10vh;
+    }
+    .box{
+        height: 10vh;
+    }
+    .box1{
+        height: 10vh;
+        width: 94%;
+    }
+    .footer-body a{
+        font-size: 16px;
+    }
+    .arrow{
+        margin-left: 50px;
+    margin-top: -14px;
+    width: 27%;
+    }
+  }
+
+
+  @media  screen and (max-width:768px) and (max-width: 1024px) {
+    img{
+        width: 75%;
+    }
+    .navbar a{
+        font-size: 10px;
+    }
+    .demo{
+        font-size: 10px;
+    }
+    .study{
+        height: 10vh;
+    } 
+    .button {
+        width: 100%;
+        height: 10vh;
+    }
+    .box1{
+        width: 93%;
+    }
+    .arrow{
+        margin-left: 50px;
+        margin-top: -14px;
+        width: 27%;
+    }
+  }
+
+  @media screen and (min-width: 425px) and (max-width: 768px) ,(min-width: 320px) {
+    .study{
+        width: 100%;
+        height: 10vh;
+    }
+    .city{
+        margin: 0px;
+        margin-left: 0px;
+    }
+    .button{
+        height: 10vh;
+        margin: 0px;
+        margin-left: 0px;
+    }
+    .box{
+        width: 30%;
+        padding: 10px;
+        height: 10vh;
+    }
+    .arrow{
+        margin-left: 50px;
+        margin-top: 28px;
+        width: 80%;
+    }
+    .social-links{
+        display: flex;
+    justify-content: space-around;
+    }
+    .footer-body a{
+        font-size: 12px;
+    } 
+    .footer-body{
+        margin-top: 40px;
+    }
+    .box a{
+        font-size: 10px;
+    }
+  }
+  
